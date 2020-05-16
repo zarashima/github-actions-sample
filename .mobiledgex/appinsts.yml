@@ -4,7 +4,7 @@
         cluster_key:
           name: venky-test
         cloudlet_key:
-          name: mexplat-stage-frankfurt-cloudlet
+          name: frankfurt-main
           organization: TDG
         organization: VenkyDev
 
@@ -14,6 +14,6 @@
         cluster_key:
           name: venky-test
         cloudlet_key:
-          name: mexplat-stage-hamburg-cloudlet
+          name: hamburg-main
           organization: TDG
         organization: VenkyDev

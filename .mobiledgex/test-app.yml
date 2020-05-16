@@ -4,7 +4,7 @@ app:
     name: GithubDeployTest
     version: "1.0"
     organization: VenkyDev
-  image_path: docker-stage.mobiledgex.net/venkydev/images/github-deploy-test
+  image_path: docker.mobiledgex.net/venkydev/images/github-deploy-test
   image_type: 1
   default_flavor: 
     name: m4.small

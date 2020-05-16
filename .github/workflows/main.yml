@@ -5,7 +5,7 @@ on:
 jobs:
 
   deploy_to_staging:
-    name: Deploy app to the MobiledgeX staging setup
+    name: Deploy app to the MobiledgeX main setup
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
         with:
           username: ${{ secrets.MOBILEDGEX_USERNAME }}
           password: ${{ secrets.MOBILEDGEX_PASSWORD }}
-          registry: docker-stage.mobiledgex.net
+          registry: docker.mobiledgex.net
           repository: venkydev/images/github-deploy
           tag_with_ref: true
 
@@ -26,7 +26,7 @@ jobs:
         id: deploy
         uses: mobiledgex/deploy-app-action@v1.0-rc4
         with:
-          setup: stage
+          setup: main
           username: ${{ secrets.MOBILEDGEX_USERNAME }}
           password: ${{ secrets.MOBILEDGEX_PASSWORD }}
 
