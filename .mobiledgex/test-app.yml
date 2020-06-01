@@ -6,6 +6,8 @@ app:
     organization: VenkyDev
   image_path: docker.mobiledgex.net/venkydev/images/github-deploy-test
   image_type: 1
+  # Set deployment to "docker" instead of "kubernetes" for a docker app
+  deployment: kubernetes
   default_flavor: 
     name: m4.small
   access_ports: "tcp:5678"
