@@ -5,7 +5,7 @@ on:
 
 jobs:
 
-  deploy_to_staging:
+  deploy_to_main:
     name: Deploy test app to the MobiledgeX main setup
     runs-on: ubuntu-latest
 
