@@ -24,7 +24,7 @@ jobs:
 
       - name: Deploy to MobiledgeX
         id: deploy
-        uses: mobiledgex/deploy-app-action@v1.0-rc4
+        uses: mobiledgex/deploy-app-action@v1.1
         with:
           setup: main
           username: ${{ secrets.MOBILEDGEX_USERNAME }}
